@@ -1,0 +1,22 @@
+  .custom-header .navbar-brand .brand-text {
+    color: rgb(0 175 250);
+    font-size: 18px;
+  }
+  
+  .custom-header .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .custom-header-second {
+    background-color: #6200ea; /* Adjust as necessary */
+  }
+  
+  .custom-header-second .nav-link {
+    color: white !important;
+  }
+  
+  .text-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
