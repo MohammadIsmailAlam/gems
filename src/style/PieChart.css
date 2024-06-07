@@ -1,0 +1,15 @@
+/* PieChart.css */
+.selected-segment {
+    transform: translate(200px, 0);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .info-box {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .info-box.visible {
+    opacity: 1;
+  }
+  
