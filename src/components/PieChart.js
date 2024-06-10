@@ -2,11 +2,11 @@ import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
+import "../style/PieChart.css";
 
 ChartJS.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
 const PieChart = () => {
-
   const data = {
     labels: [
       'পুরুষ',
@@ -45,7 +45,6 @@ const PieChart = () => {
           align: 'center',
           formatter: (value, context) => {
             const label = context.chart.data.labels[context.dataIndex];
-            // Split the label into two lines
             const lines = label.split(' ');
             return lines.join('\n');
           },
@@ -60,12 +59,16 @@ const PieChart = () => {
         display: true,
       },
       legend: {
-        display: false, // This will hide the legend
+        display: false,
       },
     },
   };
 
-  return <Doughnut data={data} options={options} />;
+  return (
+    <div className="pie-chart-container">
+      <Doughnut data={data} options={options} />
+    </div>
+  );
 };
 
 export default PieChart;

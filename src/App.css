@@ -1,5 +1,15 @@
 .main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
 }

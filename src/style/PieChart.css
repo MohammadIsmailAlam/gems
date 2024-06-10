@@ -13,3 +13,7 @@
     opacity: 1;
   }
   
+  .pie-chart-container {
+  width: 400px;
+  height: 400px;
+}
