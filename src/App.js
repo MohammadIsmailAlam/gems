@@ -4,7 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import PieChart from "./components/PieChart";
 import Header from "./components/Header";
-import LoginForm from './components/LoginForm';
+import LoginForm from "./components/LoginForm";
+import PhotoGallery from "./components/PhotoGallery";
+import VideoGallery from "./components/VideoGallery";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
           </Col>
         </Row>
       </Container>
+      <PhotoGallery />
+      <VideoGallery />
     </>
   );
 };
