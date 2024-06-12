@@ -20,7 +20,7 @@
   },
   {
     "id": 3,
-    "type": "multiple",
+    "type": "single",
     "photos": ["img/gems/images7.jpeg"],
     "more": 3,
     "description": "Ibas++ এর সঙ্গে GEMS- এর সমঝোতা স্মারক স্বাক্ষর"
